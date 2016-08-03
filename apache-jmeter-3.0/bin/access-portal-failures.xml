@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1022" lt="0" ts="1469599947491" s="false" lb="Request Access to Paddock" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-1" dt="text" de="" by="1991" sc="1" ec="1" ng="1" na="1">
+  <assertionResult>
+    <name>Padock Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /Paddock test page/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)&#xd;
+	at sun.net.NetworkClient.doConnect(Unknown Source)&#xd;
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)&#xd;
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)&#xd;
+	at sun.net.www.protocol.https.HttpsClient.&lt;init&gt;(Unknown Source)&#xd;
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source)&#xd;
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)&#xd;
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)&#xd;
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)&#xd;
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)&#xd;
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPJavaImpl.sample(HTTPJavaImpl.java:482)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1146)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1135)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://ucmcropsd2.ucmerced.edu/paddock</java.net.URL>
+</httpSample>
+
+<httpSample t="1077" lt="0" ts="1469600090610" s="false" lb="Request Access to Paddock" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-1" dt="text" de="" by="2467" sc="1" ec="1" ng="1" na="1">
+  <assertionResult>
+    <name>Padock Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /Paddock test page/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:542)&#xd;
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.LazySchemeSocketFactory.connectSocket(LazySchemeSocketFactory.java:97)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)&#xd;
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:619)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:379)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1146)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1135)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://ucmcropsd2.ucmerced.edu/paddock</java.net.URL>
+</httpSample>
+
+<httpSample t="1076" lt="0" ts="1469600118220" s="false" lb="Request Access to Paddock" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-1" dt="text" de="" by="1806" sc="1" ec="1" ng="1" na="1">
+  <assertionResult>
+    <name>Padock Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /Paddock test page/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)&#xd;
+	at org.apache.jmeter.util.HttpSSLProtocolSocketFactory.createSocket(HttpSSLProtocolSocketFactory.java:157)&#xd;
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)&#xd;
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)&#xd;
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)&#xd;
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)&#xd;
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC3Impl.sample(HTTPHC3Impl.java:269)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1146)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1135)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://ucmcropsd2.ucmerced.edu/paddock</java.net.URL>
+</httpSample>
+
+<httpSample t="1023" lt="0" ts="1469600125837" s="false" lb="Request Access to Paddock" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-1" dt="text" de="" by="1806" sc="1" ec="1" ng="1" na="1">
+  <assertionResult>
+    <name>Padock Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /Paddock test page/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)&#xd;
+	at org.apache.jmeter.util.HttpSSLProtocolSocketFactory.createSocket(HttpSSLProtocolSocketFactory.java:157)&#xd;
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)&#xd;
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)&#xd;
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)&#xd;
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)&#xd;
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC3Impl.sample(HTTPHC3Impl.java:269)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1146)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1135)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://ucmcropsd2.ucmerced.edu/paddock</java.net.URL>
+</httpSample>
+
+</testResults>
