@@ -1,0 +1,16 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,KB/sec
+GET myt.ucmerced.edu,20,2211,2188,2270,2271,2281,2096,2281,0.00%,8.8,201.0
+GET CAS Login Page,20,108,106,123,125,132,87,132,0.00%,10.7,3958.5
+POST CAS Logged In Page,20,4743,5512,7496,7790,8941,157,8941,5.00%,1.8,12.5
+GET  CA Dream Loan Entrance Counseling - Financial Aid Document Upload,19,323,328,428,442,448,175,448,0.00%,1.9,16.8
+POST  CA Dream Loan Entrance Counseling - Financial Aid Document Upload,17,16453,18367,19158,19280,20082,7910,20082,0.00%,.6,3.1
+GET  Discrepancy between SSN on FAFSA and UCM App - Financial Aid Document Upload,17,41,43,46,47,52,14,52,0.00%,1.1,8.6
+POST  Discrepancy between SSN on FAFSA and UCM App - Financial Aid Document Upload,11,17488,18600,19924,19924,20068,4855,20068,0.00%,.3,1.8
+GET  Title IV Authorizations Sheet - Financial Aid Document Upload,11,42,45,51,51,53,14,53,0.00%,.4,2.9
+POST  Title IV Authorizations Sheet - Financial Aid Document Upload,10,12928,12691,13726,13726,15264,11248,15264,0.00%,.6,3.1
+GET  Award Terms and Conditions 2016-17 - Financial Aid Document Upload,10,43,43,46,46,47,39,47,0.00%,2.4,18.4
+POST  Award Terms and Conditions 2016-17 - Financial Aid Document Upload,10,12594,12596,14076,14076,14674,10596,14674,0.00%,.6,2.9
+GET  Parent Asset Worksheet - Document Upload ,10,45,45,47,47,49,43,49,0.00%,1.4,10.6
+POST  Parent Asset Worksheet - Financial Aid Document Upload,9,10845,10772,11326,11995,11995,10201,11995,0.00%,.5,2.6
+GET  Problem Matching Name to FAFSA - Financial Aid Document Upload,9,48,46,51,65,65,44,65,0.00%,1.2,9.2
+TOTAL,193,5050,448,16719,18686,19924,14,20082,0.52%,2.1,99.0
