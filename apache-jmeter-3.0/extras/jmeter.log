@@ -1,0 +1,56 @@
+2016/07/19 10:15:15 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: Loading user properties from: C:\Users\btekalign.UCMERCED\Desktop\apache-jmeter-3.0\bin\user.properties 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: Loading system properties from: C:\Users\btekalign.UCMERCED\Desktop\apache-jmeter-3.0\bin\system.properties 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: Version 3.0 r1743807 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: java.version=1.8.0_91 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: os.name=Windows 10 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: os.arch=amd64 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: os.version=10.0 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: file.encoding=Cp1252 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: Max memory     =523763712 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: Available Processors =4 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: JMeterHome=C:\Users\btekalign.UCMERCED\Desktop\apache-jmeter-3.0 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: user.dir  =C:\Users\btekalign.UCMERCED\Desktop\apache-jmeter-3.0\extras 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: PWD       =C:\Users\btekalign.UCMERCED\Desktop\apache-jmeter-3.0\extras 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: IP: 169.236.9.86 Name: bfs-btekalign FullName: bfs-btekalign.ucmerced.edu 
+2016/07/19 10:15:15 INFO  - jmeter.services.FileServer: Default base='C:\Users\btekalign.UCMERCED\Desktop\apache-jmeter-3.0\extras' 
+2016/07/19 10:15:15 INFO  - jmeter.services.FileServer: Set new base='C:\Users\btekalign.UCMERCED\Desktop\apache-jmeter-3.0\extras' 
+2016/07/19 10:15:15 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2016/07/19 10:15:15 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2016/07/19 10:15:15 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.9 
+2016/07/19 10:15:15 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2016/07/19 10:15:15 INFO  - jmeter.save.SaveService: Loading file: Test.jmx 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: Creating summariser <summary> 
+2016/07/19 10:15:15 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/19 10:15:15 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/19 10:15:15 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/19 10:15:15 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2016/07/19 10:15:15 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2016/07/19 10:15:15 INFO  - jmeter.protocol.java.sampler.JavaSampler: Created class: org.apache.jmeter.protocol.java.test.JavaTest. Uses tearDownTest: false 
+2016/07/19 10:15:15 INFO  - jmeter.protocol.java.sampler.JavaSampler: Created class: org.apache.jmeter.protocol.java.test.JavaTest. Uses tearDownTest: false 
+2016/07/19 10:15:15 INFO  - jmeter.JMeter: Running test (1468948515648) 
+2016/07/19 10:15:15 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2016/07/19 10:15:15 INFO  - jmeter.engine.StandardJMeterEngine: Starting 3 threads for group Thread Group. 
+2016/07/19 10:15:15 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/19 10:15:15 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 3 ramp-up 1 perThread 333.33334 delayedStart=false 
+2016/07/19 10:15:15 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/19 10:15:15 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/19 10:15:15 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2016/07/19 10:15:15 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2016/07/19 10:15:15 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2016/07/19 10:15:15 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2016/07/19 10:15:15 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2016/07/19 10:15:16 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2016/07/19 10:15:16 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2016/07/19 10:15:18 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2016/07/19 10:15:18 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2016/07/19 10:15:18 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-2 
+2016/07/19 10:15:18 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2016/07/19 10:15:18 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-3 
+2016/07/19 10:15:18 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2016/07/19 10:15:18 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/19 10:15:18 INFO  - jmeter.reporters.Summariser: summary =     30 in 00:00:03 =   10.3/s Avg:   223 Min:   108 Max:   348 Err:     2 (6.67%) 

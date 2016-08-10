@@ -1,0 +1,725 @@
+2016/07/26 23:11:19 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2016/07/26 23:11:19 INFO  - jmeter.JMeter: Loading user properties from: C:\apache-jmeter-3.0\bin\user.properties 
+2016/07/26 23:11:19 INFO  - jmeter.JMeter: Loading system properties from: C:\apache-jmeter-3.0\bin\system.properties 
+2016/07/26 23:11:19 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2016/07/26 23:11:19 INFO  - jmeter.JMeter: Version 3.0 r1743807 
+2016/07/26 23:11:19 INFO  - jmeter.JMeter: java.version=1.8.0_91 
+2016/07/26 23:11:19 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2016/07/26 23:11:19 INFO  - jmeter.JMeter: os.name=Windows 10 
+2016/07/26 23:11:19 INFO  - jmeter.JMeter: os.arch=amd64 
+2016/07/26 23:11:19 INFO  - jmeter.JMeter: os.version=10.0 
+2016/07/26 23:11:19 INFO  - jmeter.JMeter: file.encoding=Cp1252 
+2016/07/26 23:11:19 INFO  - jmeter.JMeter: Max memory     =523763712 
+2016/07/26 23:11:19 INFO  - jmeter.JMeter: Available Processors =4 
+2016/07/26 23:11:19 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2016/07/26 23:11:19 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2016/07/26 23:11:19 INFO  - jmeter.JMeter: JMeterHome=C:\apache-jmeter-3.0 
+2016/07/26 23:11:19 INFO  - jmeter.JMeter: user.dir  =C:\apache-jmeter-3.0\bin 
+2016/07/26 23:11:19 INFO  - jmeter.JMeter: PWD       =C:\apache-jmeter-3.0\bin 
+2016/07/26 23:11:19 INFO  - jmeter.JMeter: IP: 169.236.9.86 Name: bfs-btekalign FullName: bfs-btekalign.ucmerced.edu 
+2016/07/26 23:11:20 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: javax.swing.plaf.nimbus.NimbusLookAndFeel [Nimbus] 
+2016/07/26 23:11:20 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2016/07/26 23:11:21 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2016/07/26 23:11:21 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2016/07/26 23:11:23 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
+2016/07/26 23:11:24 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/07/26 23:11:24 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/07/26 23:11:24 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/07/26 23:11:24 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/07/26 23:11:24 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2016/07/26 23:11:24 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2016/07/26 23:11:24 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'C:\Program Files\Java\jre1.8.0_91\bin\keytool' 
+2016/07/26 23:11:24 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\apache-jmeter-3.0\bin\proxyserver.jks 
+2016/07/26 23:11:25 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement 
+2016/07/26 23:11:25 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler 
+2016/07/26 23:11:25 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.DistributionGraphVisualizer 
+2016/07/26 23:11:25 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2016/07/26 23:11:25 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2016/07/26 23:11:25 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2016/07/26 23:11:25 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2016/07/26 23:11:25 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.SplineVisualizer 
+2016/07/26 23:12:16 INFO  - jmeter.services.FileServer: Default base='C:\apache-jmeter-3.0\bin' 
+2016/07/26 23:12:16 INFO  - jmeter.gui.action.Load: Loading file: C:\apache-jmeter-3.0\bin\templates\PaddockTestPlan.jmx 
+2016/07/26 23:12:16 INFO  - jmeter.services.FileServer: Set new base='C:\apache-jmeter-3.0\bin\templates' 
+2016/07/26 23:12:16 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2016/07/26 23:12:16 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2016/07/26 23:12:16 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.9 
+2016/07/26 23:12:16 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2016/07/26 23:12:16 INFO  - jmeter.save.SaveService: Loading file: C:\apache-jmeter-3.0\bin\templates\PaddockTestPlan.jmx 
+2016/07/26 23:12:16 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_ 
+2016/07/26 23:12:17 INFO  - jmeter.services.FileServer: Set new base='C:\apache-jmeter-3.0\bin\templates' 
+2016/07/26 23:12:24 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/26 23:12:24 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/26 23:12:24 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/26 23:12:24 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/26 23:12:24 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2016/07/26 23:12:24 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2016/07/26 23:12:24 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/26 23:12:24 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 2 perThread 2000.0 delayedStart=false 
+2016/07/26 23:12:24 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/26 23:12:24 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/26 23:12:24 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2016/07/26 23:12:25 INFO  - jmeter.protocol.http.sampler.HTTPJavaImpl: Maximum connection retries = 0 
+2016/07/26 23:12:25 INFO  - jmeter.util.JsseSSLManager: Using default SSL protocol: TLS 
+2016/07/26 23:12:25 INFO  - jmeter.util.JsseSSLManager: SSL session context: per-thread 
+2016/07/26 23:12:25 INFO  - jmeter.util.SSLManager: JmeterKeyStore Location:  type JKS 
+2016/07/26 23:12:25 INFO  - jmeter.util.SSLManager: KeyStore created OK 
+2016/07/26 23:12:25 WARN  - jmeter.util.SSLManager: Keystore file not found, loading empty keystore 
+2016/07/26 23:12:28 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2016/07/26 23:12:28 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2016/07/26 23:12:28 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/26 23:12:28 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/26 23:14:49 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/26 23:14:49 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/26 23:14:49 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/26 23:14:49 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2016/07/26 23:14:49 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2016/07/26 23:14:49 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/26 23:14:49 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 2 perThread 2000.0 delayedStart=false 
+2016/07/26 23:14:49 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/26 23:14:49 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/26 23:14:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2016/07/26 23:14:50 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = bfs-btekalign 
+2016/07/26 23:14:50 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2016/07/26 23:14:50 INFO  - jmeter.protocol.http.sampler.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory 
+2016/07/26 23:14:51 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2016/07/26 23:14:51 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2016/07/26 23:14:51 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/26 23:14:51 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/26 23:15:17 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/26 23:15:17 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/26 23:15:17 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/26 23:15:17 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2016/07/26 23:15:17 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2016/07/26 23:15:17 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/26 23:15:17 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 2 perThread 2000.0 delayedStart=false 
+2016/07/26 23:15:17 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/26 23:15:17 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/26 23:15:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2016/07/26 23:15:18 INFO  - jmeter.protocol.http.sampler.HTTPHC3Impl: HTTP request retry count = 0 
+2016/07/26 23:15:19 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2016/07/26 23:15:19 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2016/07/26 23:15:19 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/26 23:15:19 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/26 23:15:25 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/26 23:15:25 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/26 23:15:25 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/26 23:15:25 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2016/07/26 23:15:25 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2016/07/26 23:15:25 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/26 23:15:25 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 2 perThread 2000.0 delayedStart=false 
+2016/07/26 23:15:25 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/26 23:15:25 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/26 23:15:25 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2016/07/26 23:15:26 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2016/07/26 23:15:26 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2016/07/26 23:15:26 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/26 23:15:26 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/26 23:16:20 INFO  - jmeter.gui.action.Load: Loading file: C:\apache-jmeter-3.0\bin\templates\build-ldap-test-plan.jmx 
+2016/07/26 23:16:20 INFO  - jmeter.services.FileServer: Set new base='C:\apache-jmeter-3.0\bin\templates' 
+2016/07/26 23:16:20 INFO  - jmeter.save.SaveService: Loading file: C:\apache-jmeter-3.0\bin\templates\build-ldap-test-plan.jmx 
+2016/07/26 23:16:20 INFO  - jmeter.services.FileServer: Set new base='C:\apache-jmeter-3.0\bin\templates' 
+2016/07/26 23:16:34 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/26 23:16:34 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/26 23:16:34 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/26 23:16:34 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : LDAP Users 
+2016/07/26 23:16:34 INFO  - jmeter.engine.StandardJMeterEngine: Starting 4 threads for group LDAP Users. 
+2016/07/26 23:16:34 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/26 23:16:34 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 4 ramp-up 1 perThread 250.0 delayedStart=false 
+2016/07/26 23:16:34 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/26 23:16:34 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/26 23:16:34 INFO  - jmeter.threads.JMeterThread: Thread started: LDAP Users 1-1 
+2016/07/26 23:16:34 INFO  - jmeter.threads.JMeterThread: Thread started: LDAP Users 1-2 
+2016/07/26 23:16:34 INFO  - jmeter.threads.JMeterThread: Thread started: LDAP Users 1-3 
+2016/07/26 23:16:35 INFO  - jmeter.threads.JMeterThread: Thread started: LDAP Users 1-4 
+2016/07/26 23:16:55 ERROR - jmeter.protocol.ldap.sampler.LDAPSampler: Ldap client -  javax.naming.CommunicationException: ldap.test.com:389 [Root exception is java.net.ConnectException: Connection timed out: connect]
+	at com.sun.jndi.ldap.Connection.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.getInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.connect(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(Unknown Source)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at javax.naming.directory.InitialDirContext.<init>(Unknown Source)
+	at org.apache.jmeter.protocol.ldap.sampler.LdapClient.connect(LdapClient.java:78)
+	at org.apache.jmeter.protocol.ldap.sampler.LDAPSampler.sample(LDAPSampler.java:443)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.sun.jndi.ldap.Connection.createSocket(Unknown Source)
+	... 20 more
+
+2016/07/26 23:16:55 ERROR - jmeter.protocol.ldap.sampler.LDAPSampler: Ldap client -  javax.naming.CommunicationException: ldap.test.com:389 [Root exception is java.net.ConnectException: Connection timed out: connect]
+	at com.sun.jndi.ldap.Connection.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.getInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.connect(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(Unknown Source)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at javax.naming.directory.InitialDirContext.<init>(Unknown Source)
+	at org.apache.jmeter.protocol.ldap.sampler.LdapClient.connect(LdapClient.java:78)
+	at org.apache.jmeter.protocol.ldap.sampler.LDAPSampler.sample(LDAPSampler.java:443)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.sun.jndi.ldap.Connection.createSocket(Unknown Source)
+	... 20 more
+
+2016/07/26 23:16:55 ERROR - jmeter.protocol.ldap.sampler.LDAPSampler: Ldap client -  javax.naming.CommunicationException: ldap.test.com:389 [Root exception is java.net.ConnectException: Connection timed out: connect]
+	at com.sun.jndi.ldap.Connection.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.getInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.connect(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(Unknown Source)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at javax.naming.directory.InitialDirContext.<init>(Unknown Source)
+	at org.apache.jmeter.protocol.ldap.sampler.LdapClient.connect(LdapClient.java:78)
+	at org.apache.jmeter.protocol.ldap.sampler.LDAPSampler.sample(LDAPSampler.java:443)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.sun.jndi.ldap.Connection.createSocket(Unknown Source)
+	... 20 more
+
+2016/07/26 23:16:56 ERROR - jmeter.protocol.ldap.sampler.LDAPSampler: Ldap client -  javax.naming.CommunicationException: ldap.test.com:389 [Root exception is java.net.ConnectException: Connection timed out: connect]
+	at com.sun.jndi.ldap.Connection.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.getInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.connect(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(Unknown Source)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at javax.naming.directory.InitialDirContext.<init>(Unknown Source)
+	at org.apache.jmeter.protocol.ldap.sampler.LdapClient.connect(LdapClient.java:78)
+	at org.apache.jmeter.protocol.ldap.sampler.LDAPSampler.sample(LDAPSampler.java:443)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.sun.jndi.ldap.Connection.createSocket(Unknown Source)
+	... 20 more
+
+2016/07/26 23:17:16 ERROR - jmeter.protocol.ldap.sampler.LDAPSampler: Ldap client -  javax.naming.CommunicationException: ldap.test.com:389 [Root exception is java.net.ConnectException: Connection timed out: connect]
+	at com.sun.jndi.ldap.Connection.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.getInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.connect(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(Unknown Source)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at javax.naming.directory.InitialDirContext.<init>(Unknown Source)
+	at org.apache.jmeter.protocol.ldap.sampler.LdapClient.connect(LdapClient.java:78)
+	at org.apache.jmeter.protocol.ldap.sampler.LDAPSampler.sample(LDAPSampler.java:443)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.sun.jndi.ldap.Connection.createSocket(Unknown Source)
+	... 20 more
+
+2016/07/26 23:17:16 ERROR - jmeter.protocol.ldap.sampler.LDAPSampler: Ldap client -  javax.naming.CommunicationException: ldap.test.com:389 [Root exception is java.net.ConnectException: Connection timed out: connect]
+	at com.sun.jndi.ldap.Connection.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.getInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.connect(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(Unknown Source)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at javax.naming.directory.InitialDirContext.<init>(Unknown Source)
+	at org.apache.jmeter.protocol.ldap.sampler.LdapClient.connect(LdapClient.java:78)
+	at org.apache.jmeter.protocol.ldap.sampler.LDAPSampler.sample(LDAPSampler.java:443)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.sun.jndi.ldap.Connection.createSocket(Unknown Source)
+	... 20 more
+
+2016/07/26 23:17:16 ERROR - jmeter.protocol.ldap.sampler.LDAPSampler: Ldap client -  javax.naming.CommunicationException: ldap.test.com:389 [Root exception is java.net.ConnectException: Connection timed out: connect]
+	at com.sun.jndi.ldap.Connection.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.getInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.connect(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(Unknown Source)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at javax.naming.directory.InitialDirContext.<init>(Unknown Source)
+	at org.apache.jmeter.protocol.ldap.sampler.LdapClient.connect(LdapClient.java:78)
+	at org.apache.jmeter.protocol.ldap.sampler.LDAPSampler.sample(LDAPSampler.java:443)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.sun.jndi.ldap.Connection.createSocket(Unknown Source)
+	... 20 more
+
+2016/07/26 23:17:17 ERROR - jmeter.protocol.ldap.sampler.LDAPSampler: Ldap client -  javax.naming.CommunicationException: ldap.test.com:389 [Root exception is java.net.ConnectException: Connection timed out: connect]
+	at com.sun.jndi.ldap.Connection.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.getInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.connect(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(Unknown Source)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at javax.naming.directory.InitialDirContext.<init>(Unknown Source)
+	at org.apache.jmeter.protocol.ldap.sampler.LdapClient.connect(LdapClient.java:78)
+	at org.apache.jmeter.protocol.ldap.sampler.LDAPSampler.sample(LDAPSampler.java:443)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.sun.jndi.ldap.Connection.createSocket(Unknown Source)
+	... 20 more
+
+2016/07/26 23:17:37 ERROR - jmeter.protocol.ldap.sampler.LDAPSampler: Ldap client -  javax.naming.CommunicationException: ldap.test.com:389 [Root exception is java.net.ConnectException: Connection timed out: connect]
+	at com.sun.jndi.ldap.Connection.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.getInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.connect(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(Unknown Source)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at javax.naming.directory.InitialDirContext.<init>(Unknown Source)
+	at org.apache.jmeter.protocol.ldap.sampler.LdapClient.connect(LdapClient.java:78)
+	at org.apache.jmeter.protocol.ldap.sampler.LDAPSampler.sample(LDAPSampler.java:443)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.sun.jndi.ldap.Connection.createSocket(Unknown Source)
+	... 20 more
+
+2016/07/26 23:17:37 ERROR - jmeter.protocol.ldap.sampler.LDAPSampler: Ldap client -  javax.naming.CommunicationException: ldap.test.com:389 [Root exception is java.net.ConnectException: Connection timed out: connect]
+	at com.sun.jndi.ldap.Connection.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.getInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.connect(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(Unknown Source)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at javax.naming.directory.InitialDirContext.<init>(Unknown Source)
+	at org.apache.jmeter.protocol.ldap.sampler.LdapClient.connect(LdapClient.java:78)
+	at org.apache.jmeter.protocol.ldap.sampler.LDAPSampler.sample(LDAPSampler.java:443)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.sun.jndi.ldap.Connection.createSocket(Unknown Source)
+	... 20 more
+
+2016/07/26 23:17:37 ERROR - jmeter.protocol.ldap.sampler.LDAPSampler: Ldap client -  javax.naming.CommunicationException: ldap.test.com:389 [Root exception is java.net.ConnectException: Connection timed out: connect]
+	at com.sun.jndi.ldap.Connection.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.getInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.connect(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(Unknown Source)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at javax.naming.directory.InitialDirContext.<init>(Unknown Source)
+	at org.apache.jmeter.protocol.ldap.sampler.LdapClient.connect(LdapClient.java:78)
+	at org.apache.jmeter.protocol.ldap.sampler.LDAPSampler.sample(LDAPSampler.java:443)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.sun.jndi.ldap.Connection.createSocket(Unknown Source)
+	... 20 more
+
+2016/07/26 23:17:38 ERROR - jmeter.protocol.ldap.sampler.LDAPSampler: Ldap client -  javax.naming.CommunicationException: ldap.test.com:389 [Root exception is java.net.ConnectException: Connection timed out: connect]
+	at com.sun.jndi.ldap.Connection.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.getInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.connect(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(Unknown Source)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at javax.naming.directory.InitialDirContext.<init>(Unknown Source)
+	at org.apache.jmeter.protocol.ldap.sampler.LdapClient.connect(LdapClient.java:78)
+	at org.apache.jmeter.protocol.ldap.sampler.LDAPSampler.sample(LDAPSampler.java:443)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.sun.jndi.ldap.Connection.createSocket(Unknown Source)
+	... 20 more
+
+2016/07/26 23:17:42 INFO  - jmeter.gui.action.Load: Loading file: C:\apache-jmeter-3.0\bin\templates\build-adv-web-test-plan.jmx 
+2016/07/26 23:17:42 INFO  - jmeter.services.FileServer: Set new base='C:\apache-jmeter-3.0\bin\templates' 
+2016/07/26 23:17:42 INFO  - jmeter.save.SaveService: Loading file: C:\apache-jmeter-3.0\bin\templates\build-adv-web-test-plan.jmx 
+2016/07/26 23:17:42 INFO  - jmeter.services.FileServer: Set new base='C:\apache-jmeter-3.0\bin\templates' 
+2016/07/26 23:17:47 INFO  - jmeter.gui.action.Start: Shutting test down 
+2016/07/26 23:17:47 INFO  - jmeter.threads.JMeterThread: Stopping: LDAP Users 1-2 
+2016/07/26 23:17:47 INFO  - jmeter.threads.JMeterThread: Stopping: LDAP Users 1-1 
+2016/07/26 23:17:47 INFO  - jmeter.threads.JMeterThread: Stopping: LDAP Users 1-4 
+2016/07/26 23:17:47 INFO  - jmeter.threads.JMeterThread: Stopping: LDAP Users 1-3 
+2016/07/26 23:17:58 ERROR - jmeter.protocol.ldap.sampler.LDAPSampler: Ldap client -  javax.naming.CommunicationException: ldap.test.com:389 [Root exception is java.net.ConnectException: Connection timed out: connect]
+	at com.sun.jndi.ldap.Connection.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.getInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.connect(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(Unknown Source)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at javax.naming.directory.InitialDirContext.<init>(Unknown Source)
+	at org.apache.jmeter.protocol.ldap.sampler.LdapClient.connect(LdapClient.java:78)
+	at org.apache.jmeter.protocol.ldap.sampler.LDAPSampler.sample(LDAPSampler.java:443)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.sun.jndi.ldap.Connection.createSocket(Unknown Source)
+	... 20 more
+
+2016/07/26 23:17:58 INFO  - jmeter.threads.JMeterThread: Thread finished: LDAP Users 1-1 
+2016/07/26 23:17:58 ERROR - jmeter.protocol.ldap.sampler.LDAPSampler: Ldap client -  javax.naming.CommunicationException: ldap.test.com:389 [Root exception is java.net.ConnectException: Connection timed out: connect]
+	at com.sun.jndi.ldap.Connection.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.getInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.connect(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(Unknown Source)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at javax.naming.directory.InitialDirContext.<init>(Unknown Source)
+	at org.apache.jmeter.protocol.ldap.sampler.LdapClient.connect(LdapClient.java:78)
+	at org.apache.jmeter.protocol.ldap.sampler.LDAPSampler.sample(LDAPSampler.java:443)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.sun.jndi.ldap.Connection.createSocket(Unknown Source)
+	... 20 more
+
+2016/07/26 23:17:58 INFO  - jmeter.threads.JMeterThread: Thread finished: LDAP Users 1-2 
+2016/07/26 23:17:58 ERROR - jmeter.protocol.ldap.sampler.LDAPSampler: Ldap client -  javax.naming.CommunicationException: ldap.test.com:389 [Root exception is java.net.ConnectException: Connection timed out: connect]
+	at com.sun.jndi.ldap.Connection.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.getInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.connect(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(Unknown Source)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at javax.naming.directory.InitialDirContext.<init>(Unknown Source)
+	at org.apache.jmeter.protocol.ldap.sampler.LdapClient.connect(LdapClient.java:78)
+	at org.apache.jmeter.protocol.ldap.sampler.LDAPSampler.sample(LDAPSampler.java:443)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.sun.jndi.ldap.Connection.createSocket(Unknown Source)
+	... 20 more
+
+2016/07/26 23:17:58 INFO  - jmeter.threads.JMeterThread: Thread finished: LDAP Users 1-3 
+2016/07/26 23:17:59 ERROR - jmeter.protocol.ldap.sampler.LDAPSampler: Ldap client -  javax.naming.CommunicationException: ldap.test.com:389 [Root exception is java.net.ConnectException: Connection timed out: connect]
+	at com.sun.jndi.ldap.Connection.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapClient.getInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.connect(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtx.<init>(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(Unknown Source)
+	at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(Unknown Source)
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at javax.naming.directory.InitialDirContext.<init>(Unknown Source)
+	at org.apache.jmeter.protocol.ldap.sampler.LdapClient.connect(LdapClient.java:78)
+	at org.apache.jmeter.protocol.ldap.sampler.LDAPSampler.sample(LDAPSampler.java:443)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:465)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:410)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:241)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.sun.jndi.ldap.Connection.createSocket(Unknown Source)
+	... 20 more
+
+2016/07/26 23:17:59 INFO  - jmeter.threads.JMeterThread: Thread finished: LDAP Users 1-4 
+2016/07/26 23:17:59 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/26 23:17:59 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
